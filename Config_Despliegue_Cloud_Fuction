@@ -1,0 +1,6 @@
+gcloud functions deploy rls_process \  
+  --region=us-central1 \
+  --runtime=python311 \
+  --trigger-http \
+  --entry-point=run_rls_process \
+  --memory=1024MB
