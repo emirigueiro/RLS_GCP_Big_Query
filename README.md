@@ -1,6 +1,6 @@
 # 🧩 RLS_GCP_BigQuery
 
-In this repository, you can find an automated **Row Level Security (RLS)** management process for **BigQuery**, fully orchestrated through **Airflow (Cloud Composer)** and powered by configuration files stored in **Google Cloud Storage (GCS)**.
+In this repository, you can find an automated **Row Level Security (RLS)** management process for **BigQuery**, fully orchestrated through **Airflow (Cloud Composer)** or with Cloud Fuction, and powered by configuration files stored in **Google Cloud Storage (GCS)**.
 
 ---
 
@@ -19,7 +19,7 @@ It also includes **auditing** and **change detection** between rule versions.
 2. **requirements.txt** – List of dependencies required by the DAG.  
 3. **rls_rules.csv** – Example input file containing RLS rules (source definition).  
 4. **Deployment_Config_Composer** – Example of environment variables and Airflow connections required to deploy the process.
-
+5. **main.py** - Coud Fuction ready to implemented in GCP.
 ---
 
 ## ⚙️ Process Overview
