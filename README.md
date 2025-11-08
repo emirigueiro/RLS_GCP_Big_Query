@@ -38,13 +38,13 @@ It also includes **auditing** and **change detection** between rule versions.
 Main variables used in the DAG:
 
 ```python
-PROJECT_ID = "test-x-xxxxx"
-DATASET = "test_xxx"
-TABLA = "nombre de la tabla que contiene las reglas de RLS"
+PROJECT_ID = "xxxxxxx"
+DATASET = "xxxxx"
+TABLA = "xxxxxxx"
 TABLE_REGLAS = f"{PROJECT_ID}.{DATASET}.{TABLA}"
-TABLE_AUDITORIA = f"{PROJECT_ID}.{DATASET}.nombre_tabla_auditoria"
-BUCKET = "us-central1-xxx-xxxxxx-bucket"
-SOURCE_FILE = "data/nombre_archivo_reglas_rls.csv"
+TABLE_AUDITORIA = f"{PROJECT_ID}.{DATASET}.xxxxx"
+BUCKET = "xxxxxxx"
+SOURCE_FILE = "xxxxxxx.csv"
 ```
 
 These variables make it easy to adapt the DAG across different environments (dev/prod) and only need to be configured once.
